@@ -8,7 +8,7 @@
         <Authors>Daniel Buchanan</Authors> 
         <PackageTags>AWS AppConfig FeatureFlags</PackageTags> 
         <Description>A simple wrapper around AWS AppConfig for FeatureFlags.</Description>
-        <PackageReadmeFile>../../README.md</PackageReadmeFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>
