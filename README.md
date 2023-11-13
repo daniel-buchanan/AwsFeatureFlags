@@ -3,6 +3,7 @@
 Wrapper around AWS AppConfig for Simple Feature Flags.
 
 [![Build](https://github.com/daniel-buchanan/AwsFeatureFlags/actions/workflows/build.yml/badge.svg)](https://github.com/daniel-buchanan/AwsFeatureFlags/actions/workflows/build.yml)
+NuGet: https://www.nuget.org/packages/AwsFeatureFlags/
 
 To use simply add:
 ```csharp
