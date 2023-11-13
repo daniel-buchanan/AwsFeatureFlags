@@ -1,6 +1,9 @@
 # AwsFeatureFlags
 
 Wrapper around AWS AppConfig for Simple Feature Flags.
+
+[![Build](https://github.com/daniel-buchanan/AwsFeatureFlags/actions/workflows/build.yml/badge.svg)](https://github.com/daniel-buchanan/AwsFeatureFlags/actions/workflows/build.yml)
+
 To use simply add:
 ```csharp
 var services = new ServiceCollection();
