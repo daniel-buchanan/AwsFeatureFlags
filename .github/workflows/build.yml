@@ -9,8 +9,13 @@ env:
   FULL_PACKAGE_VERSION: ${{ format('0.1.{0}+{1}', github.run_number, github.sha) }}
   PACKAGE_VERSION: ${{ format('0.1.{0}', github.run_number) }}
 jobs:
+  sonar:
+    name: Sonar Analysis
+    uses: ./.github/workflows/sonar.yml
+    secrets: inherit
   pack:
     runs-on: ubuntu-latest
+    needs: [sonar]
     steps:
       - uses: actions/checkout@v3
       - name: Pack
